@@ -1,0 +1,19 @@
+---
+name: EnchantShop
+main: 007\Ray\Main
+version: 1.0.0
+api:
+- 4.0.0
+load: POSTWORLD
+author: RAY007YT 
+commands:
+  enchantshop:
+    description: Enchant Command
+    aliases: [eshop, es]
+    permission: eshop.command
+    
+permissions:
+  eshop.command:
+    default: true
+    description: Use all EnchantShop Commands
+...
