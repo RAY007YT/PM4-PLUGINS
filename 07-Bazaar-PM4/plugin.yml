@@ -1,0 +1,16 @@
+name: Bazaar
+author: RAY007YT
+api: 4.0.0
+version: 1.0.0
+main: 007\Ray\Main
+
+commands:
+  bazaar:
+   description: "Open bazaar"
+   usage: "/bazaar"
+   permission: bazaar.use.cmd
+
+permissions:
+  bazaar.use.cmd:
+   description: "Permission To Open bazaar"
+   default: true
